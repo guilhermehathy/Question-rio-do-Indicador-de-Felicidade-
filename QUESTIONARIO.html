@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adaptação do Terceiro Questionário do Indicador de Felicidade Interna Bruta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+
+</head>
+<body>
+  
+<div class="container">
+  <h1>Adaptação do Terceiro Questionário do Indicador de Felicidade Interna Bruta</h1>
+  
+    <form name = "formulario">
+        <!-- Inicio do bloco para criar uma pergunta com radio
+        Voce so ira copiar o ploco e modificar o name e o value  -->
+        <h3>Selecione o nome do entrevistador:</h3>
+        
+        
+        
+        
+        <input type="radio" name="Entrevistador" value="Carolina Amaral"> Carolina Amaral<br>
+        <input type="radio" name="Entrevistador" value="Jéssica Bueno"> Jéssica Bueno<br>
+        <input type="radio" name="Entrevistador" value="Lucas Gabriel da Silva"> Lucas <br>
+        <input type="radio" name="Entrevistador" value="Nicole Beatriz"> Nicole Beatriz <br>
+        
+
+        <!-- Fim do bloco  -->
+
+        <h3>Questão 1: Entrevistador: observe o genero do entrevistado.</h3>
+        
+        <input type="radio" name="genero" value=1 > Masculino<br>
+        <input type="radio" name="genero" value=2 > Feminino <br>
+
+        
+        <!-- Inicio do bloco para texto so mudar o campo name -->
+        <h3>Questão 2: Qual a sua idade?</h3>
+        
+        <input type="text" name="idade" class="form-control">
+        <!-- fim do bloco -->
+
+		<h3>Questão 3: Qual é a sua cor?</h3>
+        
+        
+        
+        <input type="radio" name="cor" value="1"> Branco<br>
+        <input type="radio" name="cor" value="2"> Amarelo<br>
+        <input type="radio" name="cor" value="3"> Pardo<br>
+        <input type="radio" name="cor" value="4"> Preto<br>
+        <input type="radio" name="cor" value="5"> Outro<br>
+
+        <h3>Questão 4: Qual é o seu estado civil atual?</h3>
+        
+        
+        
+        <input type="radio" name="estadocivil" value="1"> Nunca fui casado<br>
+        <input type="radio" name="estadocivil" value="2"> Casado<br>
+        <input type="radio" name="estadocivil" value="3"> Divorciado<br>
+        <input type="radio" name="estadocivil" value="4"> Separado<br>
+        <input type="radio" name="estadocivil" value="5"> Víuvo<br>
+
+
+
+        <h3>Questão 5: Se casado, este é o seu:</h3>
+        
+        
+        
+        <input type="radio" name="casamento" value="1"> Não se aplica<br>
+        <input type="radio" name="casamento" value="2"> Primeiro Casamento<br>
+        <input type="radio" name="casamento" value="3"> Segundo casamento<br>
+        <input type="radio" name="casamento" value="4"> Terceiro casamento<br>
+        <input type="radio" name="casamento" value="5"> Acima do terceiro casamento<br>
+
+
+        <h3>Questão 6: Quantas pessoas vivem na sua casa?</h3>
+        <input type="text" name="idade" class="form-control">
+
+
+        <h3>Questão 7: Qual é o seu grau de escolaridade?</h3>
+        
+        
+        
+        <input type="radio" name="grau" value="1"> Fundamental incompleto<br>
+        <input type="radio" name="grau" value="2"> Fundamental completo<br>
+        <input type="radio" name="grau" value="3"> Ensino médio incompleto<br>
+        <input type="radio" name="grau" value="4"> Ensino médio completo<br>
+        <input type="radio" name="grau" value="5"> Ensino superior incompleto<br>
+        <input type="radio" name="grau" value="6"> Ensino superior completo<br>
+        <input type="radio" name="grau" value="7"> Pós graduação<br>
+
+        <h3>Questão 8: Você ainda estuda?</h3>
+        
+        
+        
+        <input type="radio" name="estudo" value="1"> Sim<br>
+        <input type="radio" name="estudo" value="2"> Não<br>
+
+        <h3>Questão 9: A maior parte da sua educação foi em instituições públicas ou privadas?</h3>
+        
+        
+        
+        <input type="radio" name="educ" value="1"> Públicas<br>
+        <input type="radio" name="educ" value="2"> Privadas<br>
+
+        <h3>Questão 10: Você teve educação religiosa? Se sim, por quantos anos?</h3>
+        <input type="text" name="anosreligiosa" class="form-control">
+
+        <h3>Questão 11: Você ainda tem educação religiosa?</h3>
+        
+        
+        
+        <input type="radio" name="educreligiosa" value="1"> Sim<br>
+        <input type="radio" name="educreligiosa" value="2"> Não<br>
+
+
+        <h2>Questão 12: Quais dos seguintes idiomas você consegue ler ou escrever?</h2>
+        <h3>Português</h3>
+       
+        <input type="radio" name="pt" value="1"> Ler e escrever<br>
+        <input type="radio" name="pt" value="2"> Apenas ler<br>
+        <input type="radio" name="pt" value="3"> Apenas escrever<br>
+
+        <h3>Espanhol</h3>
+       
+        <input type="radio" name="esp" value="1"> Ler e escrever<br>
+        <input type="radio" name="esp" value="2"> Apenas ler<br>
+        <input type="radio" name="esp" value="3"> Apenas escrever<br>
+
+        <h3>Inglês</h3>
+       
+        <input type="radio" name="ing" value="1"> Ler e escrever<br>
+        <input type="radio" name="ing" value="2"> Apenas ler<br>
+        <input type="radio" name="ing" value="3"> Apenas escrever<br>
+
+        <h3>Outro</h3>
+       
+        <input type="text" name="idioma" class="form-control">
+
+        <h3>Questão 13: Qual a sua religião?</h3>
+       
+        <input type="text" name="relig" class="form-control">
+
+
+       <h3>Questão 14: Qual a sua ocupação</h3>
+       
+       <input type="radio" name="ocup" value="1"> Desempregado<br>
+       <input type="radio" name="ocup" value="2"> Trabalhador rural<br>
+       <input type="radio" name="ocup" value="3"> Comerciante/Empresário<br>
+       <input type="radio" name="ocup" value="4"> Estudante/Estagiário<br>
+       <input type="radio" name="ocup" value="5"> Funcionário público<br>
+       <input type="radio" name="ocup" value="6"> Político<br>
+       <input type="radio" name="ocup" value="7"> Militar/Policial<br>
+       <input type="radio" name="ocup" value="8"> Membro religioso<br>
+ 	   <input type="radio" name="ocup" value="9"> Autônomo<br>
+       <input type="radio" name="ocup" value="10"> Do lar<br>
+       <input type="radio" name="ocup" value="11"> Sem necessidade de trabalhar<br>
+       <input type="radio" name="ocup" value="12"> Desistiu de procurar emprego<br>
+       <input type="radio" name="ocup" value="13"> Outro<br>
+       
+	   
+	   <h3>Questão 15: Levando em conta todas as coisas juntamente, o quão feliz você diria que é? Em uma escala de 0 a 10, sendo 0 "nem um pouco feliz" e 10 "muito feliz".</h3>
+       
+       <input type="radio" name="RESPOSTA" value="1"> 1<br>
+       <input type="radio" name="RESPOSTA" value="2"> 2<br>
+       <input type="radio" name="RESPOSTA" value="3"> 3<br>
+       <input type="radio" name="RESPOSTA" value="4"> 4<br>
+       <input type="radio" name="RESPOSTA" value="5"> 5<br>
+       <input type="radio" name="RESPOSTA" value="6"> 6<br>
+       <input type="radio" name="RESPOSTA" value="7"> 7<br>
+       <input type="radio" name="RESPOSTA" value="8"> 8<br>
+ 	   <input type="radio" name="RESPOSTA" value="9"> 9<br>
+       <input type="radio" name="RESPOSTA" value="10"> 10<br>
+
+       <h2>Questão 16: O quão satisfeito você está com os seguintes aspectos da sua vida:</h2>
+
+       <h3>Saúde</h3>
+       
+       <input type="radio" name="saude" value="1"> Satisfeito<br>
+       <input type="radio" name="saude" value="2"> Nem satisfeito nem insatisfeito<br>
+       <input type="radio" name="saude" value="3"> Insatisfeito<br>
+
+       <h3>Padrão de Vida</h3>
+       
+       <input type="radio" name="padrao" value="1"> Satisfeito<br>
+       <input type="radio" name="padrao" value="2"> Nem satisfeito nem insatisfeito<br>
+       <input type="radio" name="padrao" value="3"> Insatisfeito<br>
+
+       <h3>As maiores ocupações da vida diária (emprego, trabalho rural, trabalho doméstico, trabalho escolar</h3>
+       
+       <input type="radio" name="vidadiaria" value="1"> Satisfeito<br>
+       <input type="radio" name="vidadiaria" value="2"> Nem satisfeito nem insatisfeito<br>
+       <input type="radio" name="vidadiaria" value="3"> Insatisfeito<br>
+      
+       <h3>Relação com os membros próximos da família</h3>
+       
+       <input type="radio" name="familia" value="1"> Satisfeito<br>
+       <input type="radio" name="familia" value="2"> Nem satisfeito nem insatisfeito<br>
+       <input type="radio" name="familia" value="3"> Insatisfeito<br>
+
+        <h3>Equilíbrio trabalho-vida</h3>
+       
+       <input type="radio" name="equilibrio" value="1"> Satisfeito<br>
+       <input type="radio" name="equilibrio" value="2"> Nem satisfeito nem insatisfeito<br>
+       <input type="radio" name="equilibrio" value="3"> Insatisfeito<br>
+        
+        
+        <h3>Questão 17: Quantas pessoas são muito próximas a você de modo que você pode contar com elas quando necessário? (exemplo: situações de doença, problemas financeiros, problemas emocionais)</h3>
+       
+        <input type="text" name="pessoasprox" class="form-control">
+        
+        <h3>Questão 18: Ultimamente, você tem perdido muito sono por preocupação?</h3>
+       
+       <input type="radio" name="sono" value="1"> Nem um pouco<br>
+       <input type="radio" name="sono" value="2"> Não mais que o normal<br>
+       <input type="radio" name="sono" value="3"> Mais que o normal<br>
+       <input type="radio" name="sono" value="4"> Não sei<br>
+       
+       
+       <h3>Questão 19: Ultimamente, você tem conseguido aproveitar suas atividades normais do dia-a-dia?</h3>
+       
+       <input type="radio" name="diaadia" value="1"> Não<br>
+       <input type="radio" name="diaadia" value="2"> Um pouco<br>
+       <input type="radio" name="diaadia" value="3"> Sim<br>
+       <input type="radio" name="diaadia" value="4"> Muito<br>
+       <input type="radio" name="diaadia" value="5"> Não sei<br>
+       
+        <h3>Questão 20: Ultimamente, você se sentiu infeliz ou deprimido?</h3>
+       
+       <input type="radio" name="infoudep" value="1"> Não<br>
+       <input type="radio" name="infoudep" value="2"> Um pouco<br>
+       <input type="radio" name="infoudep" value="3"> Sim<br>
+       <input type="radio" name="infoudep" value="4"> Muito<br>
+       <input type="radio" name="infoudep" value="5"> Não sei<br>
+       
+       <h3>Questão 21: O quão espiritual/religioso você se considera? </h3>
+       
+       <input type="radio" name="espourel" value="1"> Muito<br>
+       <input type="radio" name="espourel" value="2"> Moderadamente<br>
+       <input type="radio" name="espourel" value="3"> Um pouco<br>
+       <input type="radio" name="espourel" value="4"> Nem um pouco<br>
+       
+       <h3>Questão 22: O quão frequentemente você visita lugares de significado espiritual e/ou religioso em sua comunidade? </h3>
+       
+       <input type="radio" name="freqrel" value="1"> Muitas vezes ao dia<br>
+       <input type="radio" name="freqrel" value="2"> Uma vez ao dia<br>
+       <input type="radio" name="freqrel" value="3"> Algumas vezes na semana<br>
+       <input type="radio" name="freqrel" value="4"> Apenas em certas ocasiões<br>
+       <input type="radio" name="freqrel" value="5"> Nunca<br>
+       
+       <h2>Questão 23: O quão preocupado você é com os seguintes assuntos:</h2>
+       
+       <h3>Abandono na velhice</h3>
+       <input type="radio" name="velhice" value="1"> Sempre preocupado<br>
+       <input type="radio" name="velhice" value="2"> Algumas vezes preocupado<br>
+       <input type="radio" name="velhice" value="3"> Normalmente não se sente preocupado<br>
+       <input type="radio" name="velhice" value="4"> Não se sente preocupado nunca<br>
+       
+        <h3>Desemprego</h3>
+       <input type="radio" name="desemprego" value="1"> Sempre preocupado<br>
+       <input type="radio" name="desemprego" value="2"> Algumas vezes preocupado<br>
+       <input type="radio" name="desemprego" value="3"> Normalmente não se sente preocupado<br>
+       <input type="radio" name="desemprego" value="4"> Não se sente preocupado nunca<br>
+              
+        <h3>Falta de comida</h3>
+       <input type="radio" name="comida" value="1"> Sempre preocupado<br>
+       <input type="radio" name="comida" value="2"> Algumas vezes preocupado<br>
+       <input type="radio" name="comida" value="3"> Normalmente não se sente preocupado<br>
+       <input type="radio" name="comida" value="4"> Não se sente preocupado nunca<br>
+              
+        <h3>Futuro dos filhos</h3>
+       <input type="radio" name="filhos" value="1"> Sempre preocupado<br>
+       <input type="radio" name="filhos" value="2"> Algumas vezes preocupado<br>
+       <input type="radio" name="filhos" value="3"> Normalmente não se sente preocupado<br>
+       <input type="radio" name="filhos" value="4"> Não se sente preocupado nunca<br>      
+       
+        <h3>Gastos após a aposentadoria</h3>
+       <input type="radio" name="aposentadoria" value="1"> Sempre preocupado<br>
+       <input type="radio" name="aposentadoria" value="2"> Algumas vezes preocupado<br>
+       <input type="radio" name="aposentadoria" value="3"> Normalmente não se sente preocupado<br>
+       <input type="radio" name="aposentadoria" value="4"> Não se sente preocupado nunca<br>     
+       
+       <h2>Questão 24: Você possui dificuldades em executar as seguintes atividades por causa de um problema de saúde? Em “problema de saúde”, queremos dizer qualquer problema ou doença física, mental ou emocional de longo prazo [sem incluir gestação] </h2>
+       
+       <h3>Se vestir, incluindo amarrar cadarço, fechar zíperes e abotoar</h3>
+       <input type="radio" name="vestir" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="vestir" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="vestir" value="3"> Muita dificuldade<br>
+       <input type="radio" name="vestir" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="vestir" value="5"> Não sabe<br>  
+       
+       <h3>Caminhar por aproximadamente meio quilômetro</h3>
+       <input type="radio" name="caminhar" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="caminhar" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="caminhar" value="3"> Muita dificuldade<br>
+       <input type="radio" name="caminhar" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="caminhar" value="5"> Não sabe<br>  
+       
+       <h3>Tomar banho</h3>
+       <input type="radio" name="banho" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="banho" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="banho" value="3"> Muita dificuldade<br>
+       <input type="radio" name="banho" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="banho" value="5"> Não sabe<br>  
+       
+       <h3>Comer, como segurar uma colher, cortar alimentos e beber de um copo</h3>
+       <input type="radio" name="comer" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="comer" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="comer" value="3"> Muita dificuldade<br>
+       <input type="radio" name="comer" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="comer" value="5"> Não sabe<br>   
+       
+       <h3>Usar seus dedos para agarrar ou segurar pequenos objetos</h3>
+       <input type="radio" name="segurar" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="segurar" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="segurar" value="3"> Muita dificuldade<br>
+       <input type="radio" name="segurar" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="segurar" value="5"> Não sabe<br>  
+       
+       <h3>Levantar da cama</h3>
+       <input type="radio" name="levantar" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="levantar" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="levantar" value="3"> Muita dificuldade<br>
+       <input type="radio" name="levantar" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="levantar" value="5"> Não sabe<br>
+       
+       <h3>Usar o banheiro, incluindo de pé ou sentado.</h3>
+       <input type="radio" name="banheiro" value="1"> Nenhuma dificuldade<br>
+       <input type="radio" name="banheiro" value="2"> Alguma dificuldade<br>
+       <input type="radio" name="banheiro" value="3"> Muita dificuldade<br>
+       <input type="radio" name="banheiro" value="4"> Incapaz de realizar<br>  
+       <input type="radio" name="banheiro" value="5"> Não sabe<br>
+       
+       <h3>Questão 25: Quantas vezes você pensou em cometer suicídio nos últimos 12 meses?</h3>
+
+       <input type="text" name="suicidio" class="form-control">
+       
+       
+       <h3>Questão 26: Quantas vezes você tentou cometer suicídio nos últimos 12 meses?</h3>
+
+       <input type="text" name="suicidio2" class="form-control">
+       
+       <h3>Questão 27: Quanto tempo geralmente leva para você chegar até o atendimento médico mais próximo?</h3>
+
+       <input type="text" name="atendmedico" class="form-control">
+       
+       <h3>Questão 28: Em um dia comum, quantas horas você passa trabalhando?</h3>
+
+       <input type="text" name="horastrab" class="form-control">
+       
+        <h3>Questão 29: Em um dia comum, quantas horas você passa dormindo?</h3>
+
+       <input type="text" name="horasdorm" class="form-control">
+       
+        <h3>Questão 30: Em um dia comum, quantas horas você passa em atividades de lazer?</h3>
+
+       <input type="text" name="horaslazer" class="form-control">
+
+        <h3> Questão 31: Como você avaliaria seu conhecimento sobre a independência do brasil?</h3>
+        <input type="radio" name="indep" value="1"> Conheço a história<br>
+       <input type="radio" name="indep" value="2"> Conheço a data<br>
+       <input type="radio" name="indep" value="3"> Já ouvi falar<br>
+       <input type="radio" name="indep" value="4"> Não sei nada sobre<br>
+
+       <h3> Questão 32: Como você avaliaria seu conhecimento sobre a cultura da sua região (eventos, festivais, músicas e costumes...)?</h3>
+       <input type="radio" name="cultura" value="1"> Bom<br>
+       <input type="radio" name="cultura" value="2"> Mediano<br>
+       <input type="radio" name="cultura" value="3"> Ruim<br>
+
+       <h3> Questão 33: Qual a idade em que você passa a ser obrigado a votar nas eleições?</h3>
+       <input type="text" name="idadeeleitoral" class="form-control">
+
+       <h3> Questão 34: Qual é o seu conhecimento sobre nomes de plantas e animais em sua área?</h3>
+       <input type="radio" name="plantas" value="1"> Bom<br>
+       <input type="radio" name="plantas" value="2"> Mediano<br>
+       <input type="radio" name="plantas" value="3"> Ruim<br>
+       
+       <h3> Questão 35: Você sabe como o HIV/AIDS é transmitido?</h3>
+       <input type="radio" name="hiv" value="1"> Sim, eu ouvi falar sobre e tenho um claro entendimento sobre como é transmitido<br>
+       <input type="radio" name="hiv" value="2"> Sim, eu ouvi falar sobre e tenho algum entendimento sobre como é transmitido<br>
+       <input type="radio" name="hiv" value="3"> Sim, eu ouvi falar sobre mas estou inseguro sobre como é transmitido<br>
+       <input type="radio" name="hiv" value="4"> Nem um pouco<br>
+       
+       <h3> Questão 37: O quão bem você consegue falar Português?</h3>
+       <input type="radio" name="falarpt" value="1"> Muito bem<br>
+       <input type="radio" name="falarpt" value="2"> Bem<br>
+       <input type="radio" name="falarpt" value="3"> Apenas um pouco<br>
+       <input type="radio" name="falarpt" value="4"> Nem um pouco<br>  
+       
+        <h2>Questão 36: O que você pensa sobre as ações a seguir:</h2>
+        
+       <h3>Assasinato</h3>
+       <input type="radio" name="assassinato" value="1"> Pode ser sempre justificado<br>
+       <input type="radio" name="assassinato" value="2"> Pode ser justificado as vezes<br>
+       <input type="radio" name="assassinato" value="3"> Nunca podem ser justificadas<br>
+       <input type="radio" name="assassinato" value="4"> Não sei<br>
+       
+       <h3>Roubo</h3>
+       <input type="radio" name="roubo" value="1"> Pode ser sempre justificado<br>
+       <input type="radio" name="roubo" value="2"> Pode ser justificado as vezes<br>
+       <input type="radio" name="roubo" value="3"> Nunca podem ser justificadas<br>
+       <input type="radio" name="roubo" value="4"> Não sei<br>
+
+       <h3>Mentira</h3>
+       <input type="radio" name="mentira" value="1"> Pode ser sempre justificado<br>
+       <input type="radio" name="mentira" value="2"> Pode ser justificado as vezes<br>
+       <input type="radio" name="mentira" value="3"> Nunca podem ser justificadas<br>
+       <input type="radio" name="mentira" value="4"> Não sei<br>
+       
+       <h3>Estupro</h3>
+       <input type="radio" name="estupro" value="1"> Pode ser sempre justificado<br>
+       <input type="radio" name="estupro" value="2"> Pode ser justificado as vezes<br>
+       <input type="radio" name="estupro" value="3"> Nunca podem ser justificadas<br>
+       <input type="radio" name="estupro" value="4"> Não sei<br>
+
+        <h3>Questão 38: No último ano, você participou de atividades sociais e culturais (festas, feiras, festivais)?</h3>
+       <input type="radio" name="atividadescult" value="1"> Sim<br>
+       <input type="radio" name="atividadescult" value="2"> Não<br>
+     
+        <h2>Questão 39: Como você avaliaria o governo atual nos seguintes quesitos:</h2>
+        
+        <h3>Criação de empregos</h3>
+       <input type="radio" name="criaemprego" value="1"> Bom<br>
+       <input type="radio" name="criaemprego" value="2"> Regular<br>
+       <input type="radio" name="criaemprego" value="3"> Ruim<br>
+       <input type="radio" name="criaemprego" value="4"> Não sei<br>
+
+        <h3>Redução das diferenças entre ricos e pobres</h3>
+       <input type="radio" name="reduzdif" value="1"> Bom<br>
+       <input type="radio" name="reduzdif" value="2"> Regular<br>
+       <input type="radio" name="reduzdif" value="3"> Ruim<br>
+       <input type="radio" name="reduzdif" value="4"> Não sei<br>       
+
+        <h3>Educação</h3>
+       <input type="radio" name="goveduc" value="1"> Bom<br>
+       <input type="radio" name="goveduc" value="2"> Regular<br>
+       <input type="radio" name="goveduc" value="3"> Ruim<br>
+       <input type="radio" name="goveduc" value="4"> Não sei<br>  
+
+        <h3>Saúde</h3>
+       <input type="radio" name="govsaude" value="1"> Bom<br>
+       <input type="radio" name="govsaude" value="2"> Regular<br>
+       <input type="radio" name="govsaude" value="3"> Ruim<br>
+       <input type="radio" name="govsaude" value="4"> Não sei<br>  
+
+
+        <h3>Luta contra a corrupção</h3>
+       <input type="radio" name="lutacorr" value="1"> Bom<br>
+       <input type="radio" name="lutacorr" value="2"> Regular<br>
+       <input type="radio" name="lutacorr" value="3"> Ruim<br>
+       <input type="radio" name="lutacorr" value="4"> Não sei<br>  
+
+        <h3>Incentivo à cultura</h3>
+       <input type="radio" name="inccult" value="1"> Bom<br>
+       <input type="radio" name="inccult" value="2"> Regular<br>
+       <input type="radio" name="inccult" value="3"> Ruim<br>
+       <input type="radio" name="inccult" value="4"> Não sei<br>  
+
+        <h3>Questão 40: você votou nas duas últimas eleições?</h3>
+       <input type="radio" name="votou" value="1"> Sim<br>
+       <input type="radio" name="votou" value="2"> Não<br>        
+
+
+        <h3>Questão 41: O que você pensa sobre o seu voto?</h3>
+       <input type="radio" name="voto" value="1"> Acho muito importante<br>
+       <input type="radio" name="voto" value="2"> Acho importante, mas acho que não faz diferença<br>  
+       <input type="radio" name="voto" value="3"> Não acho importante<br>  
+ 
+       <h3>Questão 42: você sente que seus direitos são respeitados?</h3>
+       <input type="radio" name="direitos" value="1"> Sim<br>
+       <input type="radio" name="direitos" value="2"> Não<br>  
+       <input type="radio" name="direitos" value="3"> Às vezes<br>  
+ 
+        <h3>Questão 43: você sente que já sofreu preconceito por seu gênero?</h3>
+       <input type="radio" name="precgen" value="1"> Sim<br>
+       <input type="radio" name="precgen" value="2"> Não<br>  
+ 
+        <h3>Questão 44: você sente que já sofreu preconceito por sua religião?</h3>
+       <input type="radio" name="precrel" value="1"> Sim<br>
+       <input type="radio" name="precrel" value="2"> Não<br> 
+       
+       <h3>Questão 45: você sente que já sofreu preconceito por sua sexualidade?</h3>
+       <input type="radio" name="precsex" value="1"> Sim<br>
+       <input type="radio" name="precsex" value="2"> Não<br> 
+
+      <h3>Questão 46: você sente que já sofreu preconceito por sua cor?</h3>
+       <input type="radio" name="preccor" value="1"> Sim<br>
+       <input type="radio" name="preccor" value="2"> Não<br> 
+       
+       <h3>Questão 47: Há quanto tempo você vive nessa cidade?</h3>
+
+       <input type="text" name="tempocidade" class="form-control">
+       
+        <h3>Questão 48: Durante o último ano, você fez algum trabalho voluntário?</h3>
+       <input type="radio" name="trabvol" value="1"> Sim<br>
+       <input type="radio" name="trabvol" value="2"> Não<br> 
+       
+        <h3>Questão 49: Durante o último ano, você fez alguma doação (dinheiro, roupa, alimento…)?</h3>
+       <input type="radio" name="doa" value="1"> Sim<br>
+       <input type="radio" name="doa" value="2"> Não<br> 
+       
+       <h3>Questão 50: Você se sente confortável nos ambientes que mais frequenta?</h3>
+        <input type="radio" name="conf" value="1"> Sim<br>
+       <input type="radio" name="conf" value="2"> Não<br> 
+       
+
+       <h3>Questão 51: Quanto você confia nas pessoas da sua comunidade?</h3>
+        <input type="radio" name="confia" value="1"> Confio na maioria deles<br>
+       <input type="radio" name="confia" value="2"> Confio em alguns deles<br> 
+       <input type="radio" name="confia" value="3"> Não confio em nenhum deles<br> 
+       <input type="radio" name="confia" value="4"> Não sei<br> 
+
+        <h2> Questão 52: Você concorda com as seguintes afirmações:</h2>
+
+       <h3>Os membros da sua família realmente se importam uns com os outros</h3>
+        <input type="radio" name="concorda1" value="1"> Sim<br>
+       <input type="radio" name="concorda1" value="2"> Não<br> 
+       
+      <h3>Os membros da sua família discutem muito</h3>
+      <input type="radio" name="concorda2" value="1"> Sim<br>
+       <input type="radio" name="concorda2" value="2"> Não<br> 
+       
+      <h3>Você se sente um estranho na sua família</h3>
+      <input type="radio" name="concorda3" value="1"> Sim<br>
+       <input type="radio" name="concorda3" value="2"> Não<br> 
+
+      <h3>Sua família é uma fonte de conforto para você</h3>
+      <input type="radio" name="concorda4" value="1"> Sim<br>
+       <input type="radio" name="concorda4" value="2"> Não<br> 
+        
+
+      <h2> Questão 53: Você já foi vítima dos seguintes crimes no último ano?</h2>
+
+      <h3>Assalto</h3>
+      <input type="radio" name="assalto" value="1"> Sim<br>
+       <input type="radio" name="assalto" value="2"> Não<br> 
+
+      <h3>Agressão física</h3>
+      <input type="radio" name="agressfisica" value="1"> Sim<br>
+       <input type="radio" name="agressfisica" value="2"> Não<br> 
+
+      <h3>Agressão sexual</h3>
+      <input type="radio" name="agresssex" value="1"> Sim<br>
+       <input type="radio" name="agresssex" value="2"> Não<br> 
+      
+      <h3>Questão 54: Quão seguro você se sente quando está caminhando sozinho em sua vizinhança?</h3>
+      <input type="radio" name="seguro" value="1"> Seguro<br>
+      <input type="radio" name="seguro" value="2"> Nem seguro nem inseguro<br> 
+      <input type="radio" name="seguro" value="3"> Inseguro<br> 
+       
+      <h3>Questão 55: O quanto você se sente responsável pelo cuidado ao meio ambiente??</h3>
+      <input type="radio" name="seguro" value="1"> Muito responsável<br>
+      <input type="radio" name="seguro" value="2"> Responsável<br> 
+      <input type="radio" name="seguro" value="3"> Pouco responsável<br> 
+      <input type="radio" name="seguro" value="4"> Nem um pouco responsável<br>        
+
+      <h2>Questão 56: Você se sente afetado/ameaçado pelas seguintes situações? </h2>
+
+      <h3>Poluição do ar ou da água</h3>
+      <input type="radio" name="pol" value="1"> Sim<br>
+      <input type="radio" name="pol" value="2"> Não<br>
+ 
+      <h3>Desastres ambientais: Incêndio, desmoronamento, enchente</h3>
+      <input type="radio" name="des" value="1"> Sim<br>
+      <input type="radio" name="des" value="2"> Não<br>
+
+
+      <h3>Acúmulo de lixo</h3>
+      <input type="radio" name="lixo" value="1"> Sim<br>
+      <input type="radio" name="lixo" value="2"> Não<br>
+
+      <h3>Animais</h3>
+      <input type="radio" name="animais" value="1"> Sim<br>
+      <input type="radio" name="animais" value="2"> Não<br>
+
+      <h3>Questão 57: Você tem energia elétrica na sua casa?</h3>
+      <input type="radio" name="eletr" value="1"> Sim<br>
+      <input type="radio" name="eletr" value="2"> Não<br>
+
+      <h3>Questão 58: Como você geralmente descarta o lixo doméstico?</h3>
+      <input type="radio" name="descartelixo" value="1"> Compostagem<br>
+      <input type="radio" name="descartelixo" value="2"> Queima<br>
+      <input type="radio" name="descartelixo" value="3"> Coleta de lixo municipal<br>
+      <input type="radio" name="descartelixo" value="4"> Descarto em rios<br>
+      <input type="radio" name="descartelixo" value="5"> Descarto a céu aberto<br>
+
+      <h3>Questão 59: Você tem algum terreno que não está cultivado especificamente devido a alguma ameaça (animal, clima, pragas…)?</h3>
+      <input type="radio" name="terreno" value="1"> Sim<br>
+      <input type="radio" name="terreno" value="2"> Não<br>
+      
+      <h3>Questão 60: Qual a sua renda familiar total?</h3>
+      <input type="radio" name="renda" value="1"> Menos de 1 salário mínimo<br>
+      <input type="radio" name="renda" value="2"> 1 a 2 salários mínimos<br>
+      <input type="radio" name="renda" value="3"> 3 a 5 salários mínimos<br>
+      <input type="radio" name="renda" value="4"> 6 ou mais salários mínimos<br>
+     
+      <h3>Questão 61: Com a sua renda familiar total atual, quão difícil ou fácil é para você pagar por todas as suas necessidades (como alimentos, moradia e roupas)?</h3>
+      <input type="radio" name="rendanec" value="1"> Difícil<br>
+      <input type="radio" name="rendanec" value="2"> Sem problemas<br>
+      <input type="radio" name="rendanec" value="3"> Fácil<br>
+
+      <h3>Questão 62: Você ou sua família possui alguma dívida devido a moradia, veículo, empréstimos ou financiamento?</h3>
+      <input type="radio" name="divida" value="1"> Sim<br>
+      <input type="radio" name="divida" value="2"> Não<br>
+      
+      <h3>Questão 63: A moradia em que você vive é própria ou alugada?</h3>
+      <input type="radio" name="divida" value="1"> Alugada<br>
+      <input type="radio" name="divida" value="2"> Não pago aluguel<br>
+      <input type="radio" name="divida" value="3"> Própria<br>
+      <input type="radio" name="divida" value="4"> Não se aplica<br>
+
+      <h2>Questão 64: Quais dos seguintes equipamentos sua família possui?</h2> 
+      <h3>CAMA </h3>
+      <input type="radio" name="CAMA" value="1"> Sim<br>
+      <input type="radio" name="CAMA" value="2"> Não<br>
+
+      <h3>GELADEIRA </h3>
+      <input type="radio" name="GELADEIRA" value="1"> Sim<br>
+      <input type="radio" name="GELADEIRA" value="2"> Não<br>
+
+      <h3>TELEVISÃO </h3>
+      <input type="radio" name="TELEVISÃO" value="1"> Sim<br>
+      <input type="radio" name="TELEVISÃO" value="2"> Não<br>
+
+      <h3>TELEFONE/CELULAR </h3>
+      <input type="radio" name="TELEFONE" value="1"> Sim<br>
+      <input type="radio" name="TELEFONE" value="2"> Não<br>
+
+      <h3>COMPUTADOR </h3>
+      <input type="radio" name="COMPUTADOR" value="1"> Sim<br>
+      <input type="radio" name="COMPUTADOR" value="2"> Não<br>
+
+      <h3>VEÍCULO </h3>
+      <input type="radio" name="VEÍCULO" value="1"> Sim<br>
+      <input type="radio" name="VEÍCULO" value="2"> Não<br>
+
+
+
+      
+
+
+
+        <input type="submit" value="Salvar" onClick="javascript:recebeDados()">
+
+    </form> 
+
+</div>
+
+<script>
+
+    function Pegacss(css){
+        try {
+            var texto = document.querySelector(css).value;
+        }
+        catch(err) {
+            var texto = "null";
+        }
+        return texto;
+    }
+    function recebeDados(){
+        var Entrevistador = Pegacss('input[name="Entrevistador"]:checked');
+        var genero = Pegacss('input[name="genero"]:checked');
+        var idade = Pegacss('input[name="idade"]');
+        var cor = Pegacss('input[name="cor"]:checked');
+        var estadocivil = Pegacss('input[name="estadocivil"]:checked');
+        var casamento = Pegacss('input[name="casamento"]:checked');
+        var grau = Pegacss('input[name="grau"]:checked');
+        var estudo = Pegacss('input[name="estudo"]:checked');
+        var educ = Pegacss('input[name="educ"]:checked');
+        var anosreligiosa = Pegacss('input[name="anosreligiosa"]');
+        var educreligiosa = Pegacss('input[name="educreligiosa"]:checked');
+        var pt = Pegacss('input[name="pt"]:checked');
+        var esp = Pegacss('input[name="esp"]:checked');
+        var ing = Pegacss('input[name="ing"]:checked');
+        var idioma = Pegacss('input[name="idioma"]');
+        var relig = Pegacss('input[name="relig"]');
+        var ocup = Pegacss('input[name="ocup"]:checked');
+        var RESPOSTA = Pegacss('input[name="RESPOSTA"]:checked');
+        var saude = Pegacss('input[name="saude"]:checked');
+        var padrao = Pegacss('input[name="padrao"]:checked');
+        var vidadiaria = Pegacss('input[name="vidadiaria"]:checked');
+        var familia = Pegacss('input[name="familia"]:checked');
+        var equilibrio = Pegacss('input[name="equilibrio"]:checked');
+        var pessoasprox = Pegacss('input[name="pessoasprox"]');
+        var sono = Pegacss('input[name="sono"]:checked');
+        var diaadia = Pegacss('input[name="diaadia"]:checked');
+        var infoudep = Pegacss('input[name="infoudep"]:checked');
+        var espourel = Pegacss('input[name="espourel"]:checked');
+        var freqrel = Pegacss('input[name="freqrel"]:checked');
+        var velhice = Pegacss('input[name="velhice"]:checked');
+        var desemprego = Pegacss('input[name="desemprego"]:checked');
+        var comida = Pegacss('input[name="comida"]:checked');
+        var filhos = Pegacss('input[name="filhos"]:checked');
+        var aposentadoria = Pegacss('input[name="aposentadoria"]:checked');
+        var vestir = Pegacss('input[name="vestir"]:checked');
+        var caminhar = Pegacss('input[name="caminhar"]:checked');
+        var banho = Pegacss('input[name="banho"]:checked');
+        var comer = Pegacss('input[name="comer"]:checked');
+        var segurar = Pegacss('input[name="segurar"]:checked');
+        var levantar = Pegacss('input[name="levantar"]:checked');
+        var banheiro = Pegacss('input[name="banheiro"]:checked');
+        var suicidio = Pegacss('input[name="suicidio"]');
+        var suicidio2 = Pegacss('input[name="suicidio2"]');
+        var atendmedico = Pegacss('input[name="atendmedico"]');
+        var horastrab = Pegacss('input[name="horastrab"]');
+        var horasdorm = Pegacss('input[name="horasdorm"]');
+        var horaslazer = Pegacss('input[name="horaslazer"]');
+        var indep = Pegacss('input[name="indep"]:checked');
+        var cultura = Pegacss('input[name="cultura"]:checked');
+        var idadeeleitoral = Pegacss('input[name="idadeeleitoral"]');
+        var plantas = Pegacss('input[name="plantas"]:checked');
+        var hiv = Pegacss('input[name="hiv"]:checked');
+        var falarpt = Pegacss('input[name="falarpt"]:checked');
+        var assassinato = Pegacss('input[name="assassinato"]:checked');
+        var roubo = Pegacss('input[name="roubo"]:checked');
+        var mentira = Pegacss('input[name="mentira"]:checked');
+        var estupro = Pegacss('input[name="estupro"]:checked');
+        var atividadescult = Pegacss('input[name="atividadescult"]:checked');
+        var criaemprego = Pegacss('input[name="criaemprego"]:checked');
+        var reduzdif = Pegacss('input[name="reduzdif"]:checked');
+        var goveduc = Pegacss('input[name="goveduc"]:checked');
+        var govsaude = Pegacss('input[name="govsaude"]:checked');
+        var lutacorr = Pegacss('input[name="lutacorr"]:checked');
+        var inccult = Pegacss('input[name="inccult"]:checked');
+        var votou = Pegacss('input[name="votou"]:checked');
+        var voto = Pegacss('input[name="voto"]:checked');
+        var direitos = Pegacss('input[name="direitos"]:checked');
+        var precgen = Pegacss('input[name="precgen"]:checked');
+        var precrel = Pegacss('input[name="precrel"]:checked');
+        var precsex = Pegacss('input[name="precsex"]:checked');
+        var preccor = Pegacss('input[name="preccor"]:checked');
+        var tempocidade = Pegacss('input[name="tempocidade"]');
+        var trabvol = Pegacss('input[name="trabvol"]:checked');
+        var doa = Pegacss('input[name="doa"]:checked');
+        var conf = Pegacss('input[name="conf"]:checked');
+        var confia = Pegacss('input[name="confia"]:checked');
+        var concorda1 = Pegacss('input[name="concorda1"]:checked');
+        var concorda2 = Pegacss('input[name="concorda2"]:checked');
+        var concorda3 = Pegacss('input[name="concorda3"]:checked');
+        var concorda4 = Pegacss('input[name="concorda4"]:checked');
+        var assalto = Pegacss('input[name="assalto"]:checked');
+        var agressfisica = Pegacss('input[name="agressfisica"]:checked');
+        var agresssex = Pegacss('input[name="agresssex"]:checked');
+        var seguro = Pegacss('input[name="seguro"]:checked');
+        var pol = Pegacss('input[name="pol"]:checked');
+        var des = Pegacss('input[name="des"]:checked');
+        var lixo = Pegacss('input[name="lixo"]:checked');
+        var animais = Pegacss('input[name="animais"]:checked');
+        var eletr = Pegacss('input[name="eletr"]:checked');
+        var descartelixo = Pegacss('input[name="descartelixo"]:checked');
+        var terreno = Pegacss('input[name="terreno"]:checked');
+        var renda = Pegacss('input[name="renda"]:checked');
+        var rendanec = Pegacss('input[name="rendanec"]:checked');
+        var divida = Pegacss('input[name="divida"]:checked');
+        var CAMA = Pegacss('input[name="CAMA"]:checked');
+        var GELADEIRA = Pegacss('input[name="GELADEIRA"]:checked');
+        var TELEVISÃO = Pegacss('input[name="TELEVISÃO"]:checked');
+        var TELEFONE = Pegacss('input[name="TELEFONE"]:checked');
+        var COMPUTADOR = Pegacss('input[name="COMPUTADOR"]:checked');
+        var VEÍCULO = Pegacss('input[name="VEÍCULO"]:checked');
+        var texto = Entrevistador+';'+genero+';'+idade+';'+cor+';'+estadocivil+';'+casamento+';'+grau+';'+estudo+';'+educ+';'+anosreligiosa+';'+educreligiosa+';'+pt+';'+esp+';'+ing+';'+idioma+';'+relig+';'+ocup+';'+RESPOSTA+';'+saude+';'+padrao+';'+vidadiaria+';'+familia+';'+equilibrio+';'+pessoasprox+';'+sono+';'+diaadia+';'+infoudep+';'+espourel+';'+freqrel+';'+velhice+';'+desemprego+';'+comida+';'+filhos+';'+aposentadoria+';'+vestir+';'+caminhar+';'+banho+';'+comer+';'+segurar+';'+levantar+';'+banheiro+';'+suicidio+';'+suicidio2+';'+atendmedico+';'+horastrab+';'+horasdorm+';'+horaslazer+';'+indep+';'+cultura+';'+idadeeleitoral+';'+plantas+';'+hiv+';'+falarpt+';'+assassinato+';'+roubo+';'+mentira+';'+estupro+';'+atividadescult+';'+criaemprego+';'+reduzdif+';'+goveduc+';'+govsaude+';'+lutacorr+';'+inccult+';'+votou+';'+voto+';'+direitos+';'+precgen+';'+precrel+';'+precsex+';'+preccor+';'+tempocidade+';'+trabvol+';'+doa+';'+conf+';'+confia+';'+concorda1+';'+concorda2+';'+concorda3+';'+concorda4+';'+assalto+';'+agressfisica+';'+agresssex+';'+seguro+';'+pol+';'+des+';'+lixo+';'+animais+';'+eletr+';'+descartelixo+';'+terreno+';'+renda+';'+rendanec+';'+divida+';'+CAMA+';'+GELADEIRA+';'+TELEVISÃO+';'+TELEFONE+';'+COMPUTADOR+';'+VEÍCULO+';';
+
+        console.log(texto);
+
+
+        var saveData = (function () {
+                        var a = document.createElement("a");
+                        document.body.appendChild(a);
+                        a.style = "display: none";
+                        return function (data, fileName) {
+                        var json = JSON.stringify(data),
+                        blob = new Blob([json], {type: "octet/stream"}),
+                        url = window.URL.createObjectURL(blob);
+                        a.href = url;
+                        a.download = fileName;
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        };
+                        }());
+        
+        var nonemAleatorio = Math.random().toString(36).substring(15);
+        fileName = nonemAleatorio + ".csv";
+
+        saveData(texto, fileName);
+
+    }
+</script>
+
+</body>
+</html>
+
+

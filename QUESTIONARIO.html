@@ -544,10 +544,10 @@
       <input type="radio" name="seguro" value="3"> Inseguro<br> 
        
       <h3>Questão 55: O quanto você se sente responsável pelo cuidado ao meio ambiente??</h3>
-      <input type="radio" name="seguro" value="1"> Muito responsável<br>
-      <input type="radio" name="seguro" value="2"> Responsável<br> 
-      <input type="radio" name="seguro" value="3"> Pouco responsável<br> 
-      <input type="radio" name="seguro" value="4"> Nem um pouco responsável<br>        
+      <input type="radio" name="seguro2" value="1"> Muito responsável<br>
+      <input type="radio" name="seguro2" value="2"> Responsável<br> 
+      <input type="radio" name="seguro2" value="3"> Pouco responsável<br> 
+      <input type="radio" name="seguro2" value="4"> Nem um pouco responsável<br>        
 
       <h2>Questão 56: Você se sente afetado/ameaçado pelas seguintes situações? </h2>
 
@@ -594,10 +594,10 @@
       <input type="radio" name="divida" value="2"> Não<br>
       
       <h3>Questão 62: A moradia em que você vive é própria ou alugada?</h3>
-      <input type="radio" name="divida" value="1"> Alugada<br>
-      <input type="radio" name="divida" value="2"> Não pago aluguel<br>
-      <input type="radio" name="divida" value="3"> Própria<br>
-      <input type="radio" name="divida" value="4"> Não se aplica<br>
+      <input type="radio" name="divida2" value="1"> Alugada<br>
+      <input type="radio" name="divida2" value="2"> Não pago aluguel<br>
+      <input type="radio" name="divida2" value="3"> Própria<br>
+      <input type="radio" name="divida2" value="4"> Não se aplica<br>
 
       <h2>Questão 63: Quais dos seguintes equipamentos sua família possui?</h2> 
       <h3>CAMA </h3>
@@ -736,6 +736,7 @@
         var agressfisica = Pegacss('input[name="agressfisica"]:checked');
         var agresssex = Pegacss('input[name="agresssex"]:checked');
         var seguro = Pegacss('input[name="seguro"]:checked');
+        var seguro2 = Pegacss('input[name="seguro2"]:checked');
         var pol = Pegacss('input[name="pol"]:checked');
         var des = Pegacss('input[name="des"]:checked');
         var lixo = Pegacss('input[name="lixo"]:checked');
@@ -746,6 +747,7 @@
         var renda = Pegacss('input[name="renda"]:checked');
         var rendanec = Pegacss('input[name="rendanec"]:checked');
         var divida = Pegacss('input[name="divida"]:checked');
+        var divida2 = Pegacss('input[name="divida2"]:checked');
         var CAMA = Pegacss('input[name="CAMA"]:checked');
         var GELADEIRA = Pegacss('input[name="GELADEIRA"]:checked');
         var TELEVISÃO = Pegacss('input[name="TELEVISÃO"]:checked');
@@ -753,7 +755,7 @@
         var COMPUTADOR = Pegacss('input[name="COMPUTADOR"]:checked');
         var VEÍCULO = Pegacss('input[name="VEÍCULO"]:checked');
         var OBS = Pegacss('input[name="OBS"]');
-        var texto = Entrevistador+';'+genero+';'+idade+';'+bairro+';'+cor+';'+estadocivil+';'+casamento+';'+pessoascasa+';'+grau+';'+estudo+';'+educ+';'+anosreligiosa+';'+educreligiosa+';'+pt+';'+esp+';'+ing+';'+idioma+';'+relig+';'+ocup+';'+RESPOSTA+';'+saude+';'+padrao+';'+vidadiaria+';'+familia+';'+equilibrio+';'+pessoasprox+';'+sono+';'+diaadia+';'+infoudep+';'+espourel+';'+freqrel+';'+velhice+';'+desemprego+';'+comida+';'+filhos+';'+aposentadoria+';'+vestir+';'+caminhar+';'+banho+';'+comer+';'+segurar+';'+levantar+';'+banheiro+';'+suicidio+';'+suicidio2+';'+atendmedico+';'+horastrab+';'+horasdorm+';'+horaslazer+';'+indep+';'+cultura+';'+idadeeleitoral+';'+plantas+';'+hiv+';'+falarpt+';'+assassinato+';'+roubo+';'+mentira+';'+estupro+';'+atividadescult+';'+criaemprego+';'+reduzdif+';'+goveduc+';'+govsaude+';'+lutacorr+';'+inccult+';'+votou+';'+voto+';'+direitos+';'+precgen+';'+precrel+';'+precsex+';'+preccor+';'+tempocidade+';'+trabvol+';'+doa+';'+conf+';'+confia+';'+concorda1+';'+concorda2+';'+concorda3+';'+concorda4+';'+assalto+';'+agressfisica+';'+agresssex+';'+seguro+';'+pol+';'+des+';'+lixo+';'+animais+';'+eletr+';'+descartelixo+';'+terreno+';'+renda+';'+rendanec+';'+divida+';'+CAMA+';'+GELADEIRA+';'+TELEVISÃO+';'+TELEFONE+';'+COMPUTADOR+';'+VEÍCULO+';'+OBS+';';
+        var texto = Entrevistador+';'+genero+';'+idade+';'+bairro+';'+cor+';'+estadocivil+';'+casamento+';'+pessoascasa+';'+grau+';'+estudo+';'+educ+';'+anosreligiosa+';'+educreligiosa+';'+pt+';'+esp+';'+ing+';'+idioma+';'+relig+';'+ocup+';'+RESPOSTA+';'+saude+';'+padrao+';'+vidadiaria+';'+familia+';'+equilibrio+';'+pessoasprox+';'+sono+';'+diaadia+';'+infoudep+';'+espourel+';'+freqrel+';'+velhice+';'+desemprego+';'+comida+';'+filhos+';'+aposentadoria+';'+vestir+';'+caminhar+';'+banho+';'+comer+';'+segurar+';'+levantar+';'+banheiro+';'+suicidio+';'+suicidio2+';'+atendmedico+';'+horastrab+';'+horasdorm+';'+horaslazer+';'+indep+';'+cultura+';'+idadeeleitoral+';'+plantas+';'+hiv+';'+falarpt+';'+assassinato+';'+roubo+';'+mentira+';'+estupro+';'+atividadescult+';'+criaemprego+';'+reduzdif+';'+goveduc+';'+govsaude+';'+lutacorr+';'+inccult+';'+votou+';'+voto+';'+direitos+';'+precgen+';'+precrel+';'+precsex+';'+preccor+';'+tempocidade+';'+trabvol+';'+doa+';'+conf+';'+confia+';'+concorda1+';'+concorda2+';'+concorda3+';'+concorda4+';'+assalto+';'+agressfisica+';'+agresssex+';'+seguro+';'+seguro2+';'+pol+';'+des+';'+lixo+';'+animais+';'+eletr+';'+descartelixo+';'+terreno+';'+renda+';'+rendanec+';'+divida+';'+divida2+';'+CAMA+';'+GELADEIRA+';'+TELEVISÃO+';'+TELEFONE+';'+COMPUTADOR+';'+VEÍCULO+';'+OBS+';';
 
         console.log(texto);
 
